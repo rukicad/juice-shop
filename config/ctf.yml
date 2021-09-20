@@ -7,7 +7,7 @@ application:
   welcomeBanner:
     showOnFirstStart: false
 challenges:
-  showHints: false
+  showHints: true
   safetyOverride: true
 hackingInstructor:
   isEnabled: false
