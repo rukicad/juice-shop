@@ -8,6 +8,8 @@ Yereliniz `Juice Shop` oluşturmak için aşağıdaki şekilde docker imajı aya
 $ docker run -d -e "CTF_KEY=teknasyonbootcamp2021" -e "NODE_ENV=ctf" -p 3000:3000 bkimminich/juice-shop
 ```
 
+Bu yöntem sonunda [http://localhost:3000](http://localhost:3000) adresinden Juice Shop uygulamasından bayrak toplamaya başlayabilirsiniz. (Aşağıdaki _Kontrol_ başlığından `CTF_KEY`in düzgün olup olmadığını kontrol edin.)
+
 ## 2. Yöntem - Heroku (Diğer Önerilen)
 
 Aşağıdaki "Deploy to Heroku" butonunu kullanarak kendinize bir heroku app oluşturun. Heroku'daki adımları izleyin.
@@ -23,6 +25,8 @@ ları eklediğinizden emin olun.
 - CTF_KEY=teknasyonbootcamp2021
 
 Ardından More > Restart all dynos ile yeniden başlatın.
+
+Bu yöntem sonunda oluşturduğunuz Heroku adresinden Juice Shop uygulamasından bayrak toplamaya başlayabilirsiniz. (Aşağıdaki _Kontrol_ başlığından `CTF_KEY`in düzgün olup olmadığını kontrol edin.)
 
 ## 3. Yöntem - Yerelde Çalıştırmak (NodeJS)
 
