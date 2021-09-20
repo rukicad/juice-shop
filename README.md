@@ -32,11 +32,11 @@ Bu yöntem sonunda oluşturduğunuz Heroku adresinden Juice Shop uygulamasından
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/teknasyon-bootcamp/juice-shop.svg)
 
-1. Node.js (Önerilen 15.x) kurulumunu yapın.
+1. Node.js (15.x olmalı, **16.x çalışmayacaktır**) kurulumunu yapın.
 2. `git clone https://github.com/teknasyon-bootcamp/juice-shop.git` ile depoyu yerelinize klonlayın.
 3. `cd juice-shop` ile ilgili dizine ulaşın.
 4. `npm install` komutunu çalıştırın.
-5. `npm start` komutunu çalıştırın.
+5. `CTF_KEY=teknasyonbootcamp2021 NODE_ENV=ctf npm start` komutunu çalıştırın.
 6. [http://localhost:3000](http://localhost:3000) adresinden bayrakları toplamaya başlayın.
 
 ## 4. Yöntem - Ortak Heroku Ortamını Kullanmak (Önerilmez)
